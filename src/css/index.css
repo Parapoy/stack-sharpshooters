@@ -1,0 +1,33 @@
+body{
+  font-family: Manrope;
+  color: #fcf9f9;
+  background-color: #1c2225;
+  font-size: 16px;
+  font-weight: 400px;
+}
+
+.container {
+  max-width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px; 
+  padding-right: 20px;
+}
+
+@media screen and (min-width: 768px) {
+
+  .container {
+     max-width: 768px;
+     padding-left: 32px; 
+     padding-right: 32px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+
+  .container {
+     max-width: 1280px;
+    padding-left: 100px; 
+    padding-right: 100px;
+  }
+}
