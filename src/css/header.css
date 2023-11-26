@@ -118,3 +118,9 @@ body {
   align-items: center;
   gap: 12px;
 }
+
+.menu-button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
