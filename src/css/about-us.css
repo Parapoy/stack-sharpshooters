@@ -2,7 +2,7 @@
 .about {
     background-image: url(../img/mob/about/mob_about_element.png);
     background-repeat: no-repeat;
-    background-position: bottom 0 right 0;
+    background-position: bottom 20 right 0;
     margin: 0 auto;
 }
 
@@ -12,12 +12,10 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 50px;
+    padding-top: 80px;
+    padding-bottom: 80px;
     max-width: 375px;
     margin: 0 auto;
-    margin-bottom: 20px;
 }
 
 .about-container {
@@ -54,21 +52,24 @@
     margin-top: 50px;
 }
 
+.about-foto {
+    border-radius: 4px;
+}
+
 @media screen and (min-width: 768px) {
 
 
     .about {
         background-image: url(../img/tab/about/tab_about_element.png);
+        background-position: bottom 50 right 0;
     }
 
 
 
     .container {
-        padding-left: 32px;
-        padding-right: 32px;
-        padding-bottom: 60px;
+        padding-bottom: 100px;
+        padding-top: 100px;
         max-width: 768px;
-        margin-bottom: 50px;
     }
 
     .about-container {
@@ -96,17 +97,17 @@
 
     .about {
         background-image: url(../img/desk/about/desk_about_element.png);
+        background-position: bottom 70 right 0;
     }
 
 
     .container {
-        padding: 100px 150px;
+        padding-top: 150px;
+        padding-bottom: 150px;
         flex-direction: row;
         align-items: center;
         gap: 50px;
         max-width: 1280px;
-        padding-bottom: 80px;
-        margin-bottom: 70px;
     }
 
     .about-container {
