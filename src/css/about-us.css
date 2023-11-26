@@ -1,5 +1,5 @@
 
-.about {
+.container {
     background-image: url(../img/mob/about/mob_about_element.png);
     background-repeat: no-repeat;
     background-position: bottom 20 right 0;
@@ -8,7 +8,7 @@
 }
 
 
-.container {
+.container-about {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -60,13 +60,13 @@
 @media screen and (min-width: 768px) {
 
 
-    .about {
+    .container {
         background-image: url(../img/tab/about/tab_about_element.png);
         background-position: bottom 50 right 0;
         max-width: 768px;
     }
 
-    .container {
+    .container-about {
         padding-bottom: 100px;
         padding-top: 100px;
         max-width: 704px;
@@ -91,7 +91,7 @@
 @media screen and (min-width: 1280px) {
 
 
-    .about {
+    .container {
         background-image: url(../img/desk/about/desk_about_element.png);
         background-position: bottom 70 right 0;
         max-width: 1280px;
@@ -99,7 +99,7 @@
 
 
 
-    .container {
+    .container-about {
         padding-top: 150px;
         padding-bottom: 150px;
         flex-direction: row;
