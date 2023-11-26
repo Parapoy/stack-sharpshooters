@@ -1,6 +1,6 @@
 
 .about {
-    background-image: url(../images/mob/about/mob_about_element.png);
+    background-image: url(../img/mob/about/mob_about_element.png);
     background-repeat: no-repeat;
     background-position: bottom 0 right 0;
     margin: 0 auto;
@@ -57,7 +57,7 @@
 
 
     .about {
-        background-image: url(../images/tab/about/tab_about_element.png);
+        background-image: url(../img/tab/about/tab_about_element.png);
     }
 
 
@@ -92,7 +92,7 @@
 
 
     .about {
-        background-image: url(../images/desk/about/desk_about_element.png);
+        background-image: url(../img/desk/about/desk_about_element.png);
     }
 
 
