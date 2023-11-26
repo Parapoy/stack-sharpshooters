@@ -184,20 +184,20 @@
     }
   
     .hero-text {
-      width: 518px;
+      max-width: 518px;
       margin-right: 15px;
     }
   
     .hero-img {
-      min-width: 392px;
-      height: 545px;
+      max-width: 392px;
+      max-height: 545px;
       position: absolute;
       top: 100px;
       left: 100px;
     }
   
     .text-container {
-      width: 518px;
+      max-width: 518px;
       margin-left: auto;
       margin-top: 94px;
       margin-right: 130px;
@@ -218,9 +218,10 @@
 
     .text-wrap {
       display: flex;
-      flex-direction: row;
+      /* flex-direction: row; */
       flex-wrap: wrap;
       justify-content: flex-end;
+      align-items: flex-end;
     }
   }
   
