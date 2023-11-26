@@ -4,6 +4,7 @@
     background-repeat: no-repeat;
     background-position: bottom 20 right 0;
     margin: 0 auto;
+    max-width: 375px;
 }
 
 
@@ -14,7 +15,7 @@
     justify-content: center;
     padding-top: 80px;
     padding-bottom: 80px;
-    max-width: 375px;
+    max-width: 335px;
     margin: 0 auto;
 }
 
@@ -62,18 +63,13 @@
     .about {
         background-image: url(../img/tab/about/tab_about_element.png);
         background-position: bottom 50 right 0;
+        max-width: 768px;
     }
-
-
 
     .container {
         padding-bottom: 100px;
         padding-top: 100px;
-        max-width: 768px;
-    }
-
-    .about-container {
-        width: 704px;
+        max-width: 704px;
     }
 
     .about-title {
@@ -98,7 +94,9 @@
     .about {
         background-image: url(../img/desk/about/desk_about_element.png);
         background-position: bottom 70 right 0;
-    }
+        max-width: 1280px;
+        }
+
 
 
     .container {
@@ -107,7 +105,7 @@
         flex-direction: row;
         align-items: center;
         gap: 50px;
-        max-width: 1280px;
+        max-width: 1082px;
     }
 
     .about-container {
