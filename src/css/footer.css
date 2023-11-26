@@ -1,5 +1,4 @@
-<<<<<<< Updated upstream
-=======
+
 /*===================================RESET-BETA-STYLES====================================*/
 *,
 *:before,
@@ -63,6 +62,16 @@ img {
     display: block;
     max-width: 100%;
     height: auto
+}
+
+
+html,
+body {
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+    background-color: #1c2225;
+    color: #fcf9f9;
+    scroll-behavior: smooth;
 }
 
 /* ===========================================CONTAINER================================================================ */
@@ -267,4 +276,3 @@ img {
 
 
 
->>>>>>> Stashed changes
