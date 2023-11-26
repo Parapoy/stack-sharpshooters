@@ -40,7 +40,6 @@ body {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-
     justify-content: center;
 }
 
@@ -119,16 +118,9 @@ body {
     }
 
     .product-name {
-        overflow: hidden;
-        color: var(--white, #FCF9F9);
-        text-overflow: ellipsis;
-        font-family: Manrope;
         font-size: 18px;
-        font-style: normal;
-        font-weight: 500;
         line-height: 18px;
         letter-spacing: 0.9px;
-        text-transform: uppercase;
     }
 
     .price-product {
