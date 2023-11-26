@@ -1,0 +1,268 @@
+
+/*===================================RESET-BETA-STYLES====================================*/
+*,
+*:before,
+*:after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    font-weight: inherit;
+    font-size: inherit
+}
+
+p:last-child {
+    margin-bottom: 0
+}
+
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0
+}
+
+a {
+    color: currentColor;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit
+}
+
+.list {
+    list-style: none
+}
+
+.link {
+    text-decoration: none
+}
+
+button {
+    cursor: pointer
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto
+}
+
+/* ===========================================CONTAINER================================================================ */
+
+.container {
+    max-width: 375px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .container {
+        max-width: 1280px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+
+
+
+/* ===================================================FOOTER==================================================== */
+
+.footer {
+    background-image: url(../img/mob/mob_footer_element.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: auto;
+    border-top: 1px solid rgba(252, 249, 249, 0.10);
+    padding-bottom: 212px;
+    padding-top: 40px;
+}
+
+.footer-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 25px;
+    margin-bottom: 40px;
+}
+
+.footer-list-item {
+    font-size: 14px;
+    line-height: 1.29;
+    text-transform: uppercase;
+    flex-basis: 50%;
+}
+
+.footer-link {
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    text-decoration: none;
+    color: #fcf9f9;
+}
+
+.footer-link:focus,
+.footer-link:hover {
+    color: #ECD979;
+}
+
+
+.footer-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 25px;
+    margin-bottom: 40px;
+}
+
+.footer-list-item {
+    font-size: 14px;
+    line-height: 1.29;
+    text-transform: uppercase;
+    flex-basis: 50%;
+}
+
+.footer-link {
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    text-decoration: none;
+
+    color: #fcf9f9;
+
+}
+
+
+
+
+
+
+.footer-accent {
+    font-size: 44px;
+    line-height: 1.23;
+    letter-spacing: -0.03em;
+    margin-bottom: 80px;
+}
+
+.footer-accent-ukraine {
+    color: #ECD979;
+    font-size: 44px;
+    line-height: 1.23;
+    letter-spacing: -0.03em;
+}
+
+
+
+
+/*===================================================FOOTER-TABLET=========================================================*/
+
+
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+
+    .footer {
+        background-image: url(../img/tab/tab_footer_element.png);
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size: contain;
+        padding-bottom: 40px;
+
+
+    }
+
+
+
+    .footer-list {
+        flex-wrap: nowrap;
+        gap: 25px;
+        margin-bottom: 80px;
+    }
+
+    .footer-list-item {
+        flex-basis: auto;
+    }
+
+    .footer-accent {
+        max-width: 521px;
+        font-size: 54px;
+        line-height: 1.19;
+        margin-bottom: 0;
+    }
+
+    .footer-accent-ukraine {
+        font-size: 54px;
+        line-height: 1.19;
+    }
+}
+
+
+
+
+
+
+
+
+/*========================================================FOOTER-DESKTOP=====================================================*/
+
+
+
+@media screen and (min-width: 1280px) {
+    .container {
+        max-width: 1280px;
+    }
+
+    .footer {
+        background-image: url(../img/desk/desk_footer_element.png);
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .footer-list {
+        margin-bottom: 117px;
+    }
+
+    .footer-accent {
+        max-width: 800px;
+        font-size: 64px;
+        line-height: 1.16;
+    }
+
+    .footer-accent-ukraine {
+        font-size: 64px;
+        line-height: 1.16;
+    }
+}
+
+
+
