@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="hero-sec">
+      <div class="text-wrap">
+        <div class="text-container">
+          <h1 class="hero-text">
+            Reviving the traditional
+            <span class="yellow-text">Ukrainian</span> artistry in every stitch.
+          </h1>
+        </div>
+
+        <div class="star-container">
+          <svg class="star-icon">
+            <use href="./images/icons.svg#icon-star"></use>
+          </svg>
+          <p class="icon-text">all embroidery is made by hand</p>
+        </div>
+        <!-- </div> -->
+        <div class="order">
+          <button class="order-btn" href="/your-order.html">
+            Order
+            <svg class="btn-icon" width="26" heigh="10">
+              <use href="./images/icons.svg#icon-arrow"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div class="photo-container">
+        <div>
+          <picture>
+            <source
+              srcset="
+                ./images/mob/hero/mob-hero-img.jpg 1x,
+                ./images/mob/hero/mob-hero-img.jpg 2x
+              "
+              media="(min-width:375px)"
+            />
+            <source
+              srcset="
+                ./images/tab/hero/tab_hero_img.jpg    1x,
+                ./images/tab/hero/tab_hero_img@2x.jpg 2x
+              "
+              media="(min-width:768px)"
+            />
+            <source
+              srcset="
+                ./images/desk/hero/desk_hero_img.jpg   1x,
+                ./images/desk/hero/desk_hero_img2x.jpg 2x
+              "
+            />
+
+            <img
+              src="./images/mob/hero/mob-hero-img.jpg"
+              alt="photo of girl"
+              width="335"
+              height="535"
+              class="hero-img"
+            />
+          </picture>
+        </div>
+
+        <div class="second-img-container">
+          <picture>
+            <source
+              srcset="
+                ./images/tab/hero/tab_hero_second_img.jpg    1x,
+                ./images/tab/hero/tab_hero_second_img@2x.jpg 2x
+              "
+            />
+            <source
+              srcset="
+                ./images/desk/hero/desk_hero_second_img.jpg    1x,
+                ./images/desk/hero/desk_hero_second_img@2x.jpg 2x
+              "
+            />
+            <img
+              src="./images/tab/hero/tab_hero_second_img.jpg "
+              alt="photo of t-shirt"
+              width="157"
+              height="191"
+              class="second-img"
+            />
+          </picture>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
