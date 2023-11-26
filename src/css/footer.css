@@ -1,5 +1,3 @@
-
-/*===================================RESET-BETA-STYLES====================================*/
 *,
 *:before,
 *:after {
@@ -72,7 +70,9 @@ body {
     background-color: #1c2225;
     color: #fcf9f9;
     scroll-behavior: smooth;
-}
+} 
+
+
 
 /* ===========================================CONTAINER================================================================ */
 
@@ -188,7 +188,13 @@ body {
     letter-spacing: -0.03em;
 }
 
-
+@media screen and (min-resolution: 192dpi) and (max-width: 767px),
+screen and (min-resolution: 2dppx) and (max-width: 767px),
+screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
+    .footer-section {
+        background-image: url(../img/mob/mob_footer_element@2x.png);
+    }
+}
 
 
 /*===================================================FOOTER-TABLET=========================================================*/
@@ -240,7 +246,13 @@ body {
 
 
 
-
+@media screen and (min-resolution: 192dpi) and (min-width: 768px),
+screen and (min-resolution: 2dppx) and (min-width: 768px),
+screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
+    .footer-section {
+        background-image: url(../img/tab/tab_footer_element@2x.png);
+    }
+}
 
 /*========================================================FOOTER-DESKTOP=====================================================*/
 
@@ -274,5 +286,14 @@ body {
     }
 }
 
+
+
+@media screen and (min-resolution: 192dpi) and (min-width: 1280px),
+screen and (min-resolution: 2dppx) and (min-width: 1280px),
+screen and (min-device-pixel-ratio: 2) and (min-width: 1280px) {
+    .footer-section {
+        background-image: url(../img/desk/desk_footer_element@2x.png);
+    }
+}
 
 
