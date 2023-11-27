@@ -22,7 +22,7 @@
     
     
     <script type="module" crossorigin src="/stack-sharpshooters/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/stack-sharpshooters/assets/index-5788b5ff.css">
+    <link rel="stylesheet" href="/stack-sharpshooters/assets/index-867dadde.css">
   </head>
   <body>
     <header>
@@ -284,22 +284,25 @@
         </ul>
     </div>
 </section>
-      <div class="order-green-bg" id="your-order"></div>
-<section class="order-section">
+      <section class="order-section">
+  <div class="order-green-bg" id="your-order"></div>
   <div class="order-container">
     <div class="order-img-wrap order-wrap">
-      <picture class="order-img">
+      <picture>
         <source
           srcset="/stack-sharpshooters/assets/desk_form_img-05468757.jpg 1x, /stack-sharpshooters/assets/desk_form_img-05468757.jpg 2x"
           media="(min-width: 1280px)"
         />
-        <source srcset="/stack-sharpshooters/assets/tab_form_img-301704b9.jpg 1x, /stack-sharpshooters/assets/tab_form_img@2x-c201a999.jpg 2x"
-        media="(min-width: 768px)" />
+        <source
+          srcset="/stack-sharpshooters/assets/tab_form_img-301704b9.jpg 1x, /stack-sharpshooters/assets/tab_form_img@2x-c201a999.jpg 2x"
+          media="(min-width: 768px)"
+        />
         <img
           src="/stack-sharpshooters/assets/tab_form_img-301704b9.jpg"
           alt="blouse"
           width="638"
           height="521"
+          class="order-img"
         />
       </picture>
     </div>
@@ -335,13 +338,13 @@
           class="form-textarea"
           placeholder="Comments"
         ></textarea>
+        <button class="order-button" type="submit">
+          <span class="order-button-span">SEND</span>
+          <svg class="order-icon" width="24" height="24">
+            <use href="/stack-sharpshooters/assets/icons-1e82c8d5.svg#icon-arrow"></use>
+          </svg>
+        </button>
       </form>
-      <button class="order-button" type="submit">
-        <span class="order-button-span">SEND</span>
-        <svg class="order-icon" width="24" height="24">
-          <use href="/stack-sharpshooters/assets/icons-1e82c8d5.svg#icon-arrow"></use>
-        </svg>
-      </button>
     </div>
   </div>
 </section>
