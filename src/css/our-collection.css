@@ -3,21 +3,45 @@ body {
     background: #1C2225;
 }
 
-.collection {
-    background-image: url(../img/mob/collection/mob_collection_element.png);
-    background-repeat: no-repeat;
-    background-position-y: 268px;
-    margin: 0 auto;
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
-.container {
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.collection-section {
+    background-image: url(../img/mob/collection/mob_collection_element.png);
+    background-repeat: no-repeat;
+    background-position-y: 316px;
+    padding-bottom: 50px;
+    padding-top: 18px;
+}
+
+.container-collection {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding-left: 20px;
     padding-right: 20px;
-    padding-bottom: 50px;
     max-width: 375px;
     margin: 0 auto;
 }
@@ -31,7 +55,6 @@ body {
     line-height: 44px;
     letter-spacing: -0.96px;
     text-align: center;
-    margin-top: 18px;
     margin-bottom: 40px;
 
 }
@@ -83,30 +106,30 @@ body {
 }
 
 @media screen and (min-width: 768px) {
-    .collection {
+    .collection-section {
         background-image: url(../img/tab/collection/tab_collection_element.png);
         background-repeat: no-repeat;
-        background-position-y: 214px;
+        background-position-y: 224px;
+        padding-top: 50.54px;
+        padding-bottom: 100px;
     }
 
-    .container {
+    .container-collection {
         max-width: 768px;
         padding-left: 32px;
         padding-right: 32px;
-        padding-bottom: 100px;
     }
 
     .collection-name {
         font-size: 44px;
         line-height: 64px;
         letter-spacing: -1.32px;
-        margin-top: 50.54px;
     }
 
     .collection-list {
         display: flex;
         flex-wrap: wrap;
-        gap: 20px;
+        gap: 20px 20px;
     }
 
     .wrapper-imag-collection {
@@ -132,23 +155,27 @@ body {
 
 @media screen and (min-width: 1280px) {
 
-    .collection {
+    .collection-section {
         background-image: url(../img/desk/collection/desk_collection_element.png);
         background-repeat: no-repeat;
-        background-position-y: 234px;
+        background-position-y: 291px;
         max-width: 1280px;
-    }
-
-    .container {
-        max-width: 1280px;
-        padding-left: 100.5px;
-        padding-right: 98px;
+        padding-top: 70px;
         padding-bottom: 150px;
     }
 
-    .collection-name {
-        margin-top: 70px;
+    .collection-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 40px 20px;
     }
+
+    .container-collection {
+        max-width: 1280px;
+        padding-left: 100.5px;
+        padding-right: 98px;
+    }
+
 
     .collection-item {
         width: calc((100% - 40px) / 3);
