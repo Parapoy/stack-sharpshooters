@@ -172,15 +172,16 @@ body {
 }
 
 .menu-element {
-  width: 100%; /* Можно также задать фиксированную ширину контейнера */
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center; /* Центрируем изображение */
+  max-width: none;
 }
 
 .menu-element-img {
   height: auto;
+  max-width: none;
   max-height: none;
 }
 
