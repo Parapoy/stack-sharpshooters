@@ -56,11 +56,16 @@ button {
     cursor: pointer
 }
 
-img {
+
+
+
+ .footer-link {
     display: block;
     max-width: 100%;
     height: auto
-}
+} 
+
+
 
 
 html,
