@@ -1,9 +1,13 @@
+body {
+    font-family: 'Manrope', sans-serif;
+    background: #1C2225;
+}
+
 .collection {
     background-image: url(../img/mob/collection/mob_collection_element.png);
     background-repeat: no-repeat;
-    background-position: left 0 top 300px;
+    background-position-y: 268px;
     margin: 0 auto;
-    
 }
 
 .container {
@@ -36,12 +40,14 @@
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+    justify-content: center;
 }
 
 
 .wrapper-imag-collection {
     max-width: 320px;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .wrapper-about {
@@ -63,10 +69,6 @@
     line-height: 14px;
     letter-spacing: 0.7px;
     text-transform: uppercase;
-    justify-content: left;
-    /*display: -webkit-box;
-        -webkit-box-orient: vertical;
-        -webkit-line-clamp: 1;*/
 }
 
 
@@ -84,13 +86,14 @@
     .collection {
         background-image: url(../img/tab/collection/tab_collection_element.png);
         background-repeat: no-repeat;
-        background-position-y: 271.54px;
+        background-position-y: 214px;
     }
 
     .container {
         max-width: 768px;
         padding-left: 32px;
         padding-right: 32px;
+        padding-bottom: 100px;
     }
 
     .collection-name {
@@ -115,16 +118,9 @@
     }
 
     .product-name {
-        overflow: hidden;
-        color: var(--white, #FCF9F9);
-        text-overflow: ellipsis;
-        font-family: Manrope;
         font-size: 18px;
-        font-style: normal;
-        font-weight: 500;
         line-height: 18px;
         letter-spacing: 0.9px;
-        text-transform: uppercase;
     }
 
     .price-product {
@@ -139,13 +135,15 @@
     .collection {
         background-image: url(../img/desk/collection/desk_collection_element.png);
         background-repeat: no-repeat;
-        background-position-y: 291.54px;
+        background-position-y: 234px;
+        max-width: 1280px;
     }
 
     .container {
         max-width: 1280px;
         padding-left: 100.5px;
         padding-right: 98px;
+        padding-bottom: 150px;
     }
 
     .collection-name {
@@ -155,10 +153,6 @@
     .collection-item {
         width: calc((100% - 40px) / 3);
 
-    }
-
-    .photo-blous {
-        width: 100%;
     }
 
     .product-name {
