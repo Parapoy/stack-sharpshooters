@@ -1,19 +1,28 @@
-<div class="order-green-bg" id="your-order"></div>
 <section class="order-section">
+  <div class="order-green-bg" id="your-order"></div>
   <div class="order-container">
     <div class="order-img-wrap order-wrap">
-      <picture class="order-img">
+      <picture>
         <source
-          srcset="./img/desk/form/desk_form_img.jpg 1x, ./img/desk/form/desk_form_img.jpg 2x"
+          srcset="
+            ./img/desk/form/desk_form_img.jpg 1x,
+            ./img/desk/form/desk_form_img.jpg 2x
+          "
           media="(min-width: 1280px)"
         />
-        <source srcset="./img/tab/form/tab_form_img.jpg 1x, ./img/tab/form/tab_form_img@2x.jpg 2x"
-        media="(min-width: 768px)" />
+        <source
+          srcset="
+            ./img/tab/form/tab_form_img.jpg    1x,
+            ./img/tab/form/tab_form_img@2x.jpg 2x
+          "
+          media="(min-width: 768px)"
+        />
         <img
           src="./img/tab/form/tab_form_img.jpg"
           alt="blouse"
           width="638"
           height="521"
+          class="order-img"
         />
       </picture>
     </div>
@@ -49,13 +58,13 @@
           class="form-textarea"
           placeholder="Comments"
         ></textarea>
+        <button class="order-button" type="submit">
+          <span class="order-button-span">SEND</span>
+          <svg class="order-icon" width="24" height="24">
+            <use href="./img/icons.svg#icon-arrow"></use>
+          </svg>
+        </button>
       </form>
-      <button class="order-button" type="submit">
-        <span class="order-button-span">SEND</span>
-        <svg class="order-icon" width="24" height="24">
-          <use href="./img/icons.svg#icon-arrow"></use>
-        </svg>
-      </button>
     </div>
   </div>
 </section>
