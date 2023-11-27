@@ -1,0 +1,61 @@
+<div class="order-green-bg" id="your-order"></div>
+<section class="order-section">
+  <div class="order-container">
+    <div class="order-img-wrap order-wrap">
+      <picture class="order-img">
+        <source
+          srcset="./img/desk/form/desk_form_img.jpg 1x, ./img/desk/form/desk_form_img.jpg 2x"
+          media="(min-width: 1280px)"
+        />
+        <source srcset="./img/tab/form/tab_form_img.jpg 1x, ./img/tab/form/tab_form_img@2x.jpg 2x"
+        media="(min-width: 768px)" />
+        <img
+          src="./img/tab/form/tab_form_img.jpg"
+          alt="blouse"
+          width="638"
+          height="521"
+        />
+      </picture>
+    </div>
+    <div class="form-wrap order-wrap">
+      <h2 class="order-title">
+        <span class="order-title-span">Your order</span> is our priority:
+        Personalized approach and quality of service
+      </h2>
+      <form class="order-form">
+        <input
+          type="text"
+          name="user-name"
+          class="form-input"
+          required
+          id="user-name"
+          placeholder="Enter your full name"
+          pattern="[A-Za-z]+"
+          title="Only letters are allowed"
+        />
+        <input
+          type="email"
+          name="email"
+          class="form-input"
+          required
+          id="email"
+          placeholder="Enter your email"
+          pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
+          title="Enter a valid email address"
+        />
+        <textarea
+          name="user-comment"
+          id="user-comment"
+          class="form-textarea"
+          placeholder="Comments"
+        ></textarea>
+      </form>
+      <button class="order-button" type="submit">
+        <span class="order-button-span">SEND</span>
+        <svg class="order-icon" width="26" height="10">
+          <use href="./img/icons.svg#icon-arrow"></use>
+        </svg>
+      </button>
+    </div>
+  </div>
+</section>
