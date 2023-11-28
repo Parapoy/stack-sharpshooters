@@ -81,15 +81,16 @@ body {
 
 /* ===========================================CONTAINER================================================================ */
 
-.container {
+.container-footer {
     max-width: 375px;
     padding-left: 20px;
     padding-right: 20px;
     margin: 0 auto;
+    
 }
 
 @media screen and (min-width: 768px) {
-    .container {
+    .container-footer {
         max-width: 768px;
         padding-left: 32px;
         padding-right: 32px;
@@ -97,7 +98,7 @@ body {
 }
 
 @media screen and (min-width: 1280px) {
-    .container {
+    .container-footer {
         max-width: 1280px;
         padding-left: 15px;
         padding-right: 15px;
@@ -122,12 +123,15 @@ body {
 .footer-wrapper {
     display: flex;
     flex-wrap: wrap;
+    padding-left: 100px;
+    padding-bottom: 0;
+    flex-direction: column;
 }
 
 .footer-list {
     list-style: none;
     display: flex;
-    flex-wrap: wrap;
+     flex-wrap: wrap; 
     row-gap: 25px;
     margin-bottom: 40px;
 }
@@ -151,13 +155,20 @@ body {
 }
 
 
-.footer-list {
-    list-style: none;
+/* .footer-list {
+     list-style: none; 
     display: flex;
+        
     flex-wrap: wrap;
     row-gap: 25px;
-    margin-bottom: 40px;
-}
+    margin-bottom: 40px; 
+
+  
+
+    
+            
+        
+} */
 
 .footer-list-item {
     font-size: 14px;
@@ -196,7 +207,7 @@ body {
 @media screen and (min-resolution: 192dpi) and (max-width: 767px),
 screen and (min-resolution: 2dppx) and (max-width: 767px),
 screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
-    .footer-section {
+    .footer {
         background-image: url(../img/mob/mob_footer_element@2x.png);
     }
 }
@@ -207,7 +218,7 @@ screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
 
 
 @media screen and (min-width: 768px) {
-    .container {
+    .container-footer {
         max-width: 768px;
     }
 
@@ -254,7 +265,7 @@ screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
 @media screen and (min-resolution: 192dpi) and (min-width: 768px),
 screen and (min-resolution: 2dppx) and (min-width: 768px),
 screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
-    .footer-section {
+    .footer {
         background-image: url(../img/tab/tab_footer_element@2x.png);
     }
 }
@@ -264,8 +275,9 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
 
 
 @media screen and (min-width: 1280px) {
-    .container {
+    .container-footer {
         max-width: 1280px;
+        align-items: flex-start;
     }
 
     .footer {
@@ -280,7 +292,7 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
     }
 
     .footer-accent {
-        max-width: 800px;
+        max-width: 754px;
         font-size: 64px;
         line-height: 1.16;
     }
@@ -296,7 +308,7 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
 @media screen and (min-resolution: 192dpi) and (min-width: 1280px),
 screen and (min-resolution: 2dppx) and (min-width: 1280px),
 screen and (min-device-pixel-ratio: 2) and (min-width: 1280px) {
-    .footer-section {
+    .footer {
         background-image: url(../img/desk/desk_footer_element@2x.png);
     }
 }
