@@ -1,3 +1,8 @@
+img {
+    max-width: none;
+}
+
+
 .about {
     background-image: url(../img/mob/about/mob_about_element.png);
     background-repeat: no-repeat;
