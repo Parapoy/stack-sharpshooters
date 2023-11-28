@@ -112,9 +112,6 @@ img {
         background-position-y: 224px;
         padding-top: 50.54px;
         padding-bottom: 100px;
-            max-width: 1280px;
-                margin-left: auto;
-                margin-right: auto;
     }
 
     .container-collection {
@@ -164,6 +161,10 @@ img {
         background-position-y: 291px;
         padding-top: 70px;
         padding-bottom: 150px;
+
+            max-width: 1280px;
+                margin-left: auto;
+                margin-right: auto;
     }
 
     .collection-list {
