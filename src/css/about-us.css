@@ -1,29 +1,20 @@
-
 .about {
     background-image: url(../img/mob/about/mob_about_element.png);
     background-repeat: no-repeat;
     background-position: bottom 20px right 0;
     margin: 0 auto;
-    max-width: 375px;
+    max-width: 320px;
+    padding: 80px 20px;
 }
 
 
 .container-about {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding-top: 80px;
-    padding-bottom: 80px;
-    max-width: 335px;
+    align-items: flex-start;
     margin: 0 auto;
 }
 
-.about-container {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
 
 .about-title {
     color: #FCF9F9;
@@ -64,11 +55,10 @@
         background-image: url(../img/tab/about/tab_about_element.png);
         background-position: bottom 50px right 0;
         max-width: 768px;
+        padding: 100px 32px;
     }
 
     .container-about {
-        padding-bottom: 100px;
-        padding-top: 100px;
         max-width: 704px;
     }
 
@@ -95,13 +85,12 @@
         background-image: url(../img/desk/about/desk_about_element.png);
         background-position: bottom 70px right 0;
         max-width: 1280px;
-        }
+        padding: 150px 100px;
+    }
 
 
 
     .container-about {
-        padding-top: 150px;
-        padding-bottom: 150px;
         flex-direction: row;
         align-items: center;
         gap: 50px;
