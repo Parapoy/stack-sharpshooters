@@ -112,6 +112,9 @@ img {
         background-position-y: 224px;
         padding-top: 50.54px;
         padding-bottom: 100px;
+            max-width: 1280px;
+                margin-left: auto;
+                margin-right: auto;
     }
 
     .container-collection {
