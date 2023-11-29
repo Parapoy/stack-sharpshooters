@@ -12,17 +12,11 @@ body {
 
 .container {
   min-width: 375px;
-}
-
-.navigation {
+  padding-top: 20px;
   display: flex;
-  height: 52px;
   justify-content: center;
   align-items: center;
   gap: 87px;
-  padding-left: 20px;
-  padding-top: 20px;
-  padding-right: 20px;
   margin: 0 auto;
 }
 
@@ -228,13 +222,10 @@ img {
 @media screen and (min-width: 768px) {
   .container {
     width: 768px;
-  }
-
-  .navigation {
     gap: 440px;
   }
 
-  .header-socials a:nth-child(3) {
+  .header-socials:nth-child(3) {
     margin-right: 8px;
   }
 
@@ -247,11 +238,17 @@ img {
   .menu-header {
     gap: 79px;
   }
+
+  .menu-button {
+    margin-left: 8px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
   .container {
     width: 1280px;
+    margin: 0 auto;
+    gap: 120px;
   }
 
   .menu-button {
@@ -268,18 +265,11 @@ img {
   .header-list {
     display: flex;
   }
-
-  .navigation {
-    gap: 120px;
-  }
 }
 
 @media screen and (min-width: 1440px) {
   .container {
     width: 1440px;
-  }
-
-  .navigation {
     gap: 289px;
   }
 }
