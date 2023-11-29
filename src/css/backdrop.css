@@ -8,8 +8,8 @@
   display: none;
   position: fixed;
   top: 0;
-  left: 0;
-  width: 100%;
+  right: 0;
+  width: 300px;
   height: 100%;
   background-color: #ecd979;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
