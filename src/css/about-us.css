@@ -1,9 +1,12 @@
+
+
+
 .about {
     background-image: url(../img/mob/about/mob_about_element.png);
     background-repeat: no-repeat;
     background-position: bottom 20px right 0;
     margin: 0 auto;
-    max-width: 320px;
+    max-width: 375px;
     padding: 80px 20px;
 }
 
@@ -13,6 +16,12 @@
     flex-direction: column;
     align-items: flex-start;
     margin: 0 auto;
+}
+
+.about-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 
@@ -97,7 +106,7 @@
         max-width: 1082px;
     }
 
-    .about-container {
+    .about-text {
         width: 436px;
         height: 454px;
     }
