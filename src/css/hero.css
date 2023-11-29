@@ -6,6 +6,15 @@ body {
   font-weight: 400px;
 }
 
+.order-btn {
+  margin-left: 90px;
+}
+
+.hero-container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .container {
   max-width: 375px;
   margin-left: auto;
@@ -15,10 +24,20 @@ body {
 }
 
 @media screen and (min-width: 768px) {
+  .first-pic {
+    display: flex;
+    width: 413px;
+    height: 575px;
+  }
+
   .container {
-    max-width: 768px;
+    /*max-width: 768px;*/
     padding-left: 32px;
     padding-right: 32px;
+  }
+
+  .order-btn {
+    margin-left: 141px;
   }
 }
 
@@ -107,7 +126,7 @@ body {
 
   display: inline-flex;
   height: 49px;
-  padding: 14px 36px;
+  padding: 14px 44px;
   justify-content: center;
   align-items: center;
   gap: 10px;
@@ -194,7 +213,7 @@ body {
   }
 
   .order-btn {
-    margin-left: 173px;
+    margin-left: 141px;
   }
 
   .second-img {
@@ -205,7 +224,8 @@ body {
     position: absolute;
 
     /* right: 32px; */
-    left: 607px;
+    /*left: 600px;*/
+    left: 597px;
     bottom: 100px;
   }
 }
@@ -254,7 +274,7 @@ body {
     position: absolute;
 
     top: 380px;
-    left: 473px;
+    left: 510px;
   }
 
   .order-btn:hover,

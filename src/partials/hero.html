@@ -35,33 +35,15 @@
       
         
           <picture class="first-pic">
-            <source
-              srcset="
-                ./img/mob/hero/mob-hero-img.jpg 1x,
-                ./img/mob/hero/mob-hero-img.jpg 2x
-              "
-              media="(min-width:375px)"
-            />
-            <source
-              srcset="
-                ./img/tab/hero/tab_hero_img.jpg    1x,
-                ./img/tab/hero/tab_hero_img@2x.jpg 2x
-              "
-              media="(min-width:768px)"
-            />
-            <source
-              srcset="
-                ./img/desk/hero/desk_hero_img.jpg   1x,
-                ./img/desk/hero/desk_hero_img2x.jpg 2x
-              "
-            />
+            <source media="(min-width: 375px)" srcset="./img/mob/hero/mob_hero_img@1x.jpg 1x, ./img/mob/hero/mob_hero_img@2x.jpg 2x"/>
+            <source media="(min-width: 768px)" srcset="./img/tab/hero/tab_hero_img@1x.jpg 1x, ./img/tab/hero/tab_hero_img@2x.jpg 2x"/>
+            <source media="(min-width: 1280px)" srcset="./img/desk/hero/desk_hero_img.jpg 1x, ./img/desk/hero/desk_hero_img@2x.jpg 2x"/>
 
             <img
-              src="./img/mob/hero/mob-hero-img.jpg"
+              src="./img/tab/hero/tab_hero_img@1x.jpg"
               alt="photo of girl"
-              width="335"
-              height="535"
-              class="hero-img"
+              width="100%"
+              height="100%"            
             />
           </picture>
           
@@ -71,13 +53,13 @@
           <picture class="second-img-container">
             <source
               srcset="
-                ./img/tab/hero/tab_hero_second_img.jpg    1x,
+                ./img/tab/hero/tab_hero_second_img.jpg 1x,
                 ./img/tab/hero/tab_hero_second_img@2x.jpg 2x
               "
             />
             <source
               srcset="
-                ./img/desk/hero/desk_hero_second_img.jpg    1x,
+                ./img/desk/hero/desk_hero_second_img.jpg 1x,
                 ./img/desk/hero/desk_hero_second_img@2x.jpg 2x
               "
             />
