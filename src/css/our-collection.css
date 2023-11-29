@@ -21,12 +21,6 @@ ul {
     list-style: none;
 }
 
-img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-}
-
 .collection-section {
     background-image: url(../img/mob/collection/mob_collection_element.png);
     background-repeat: no-repeat;
