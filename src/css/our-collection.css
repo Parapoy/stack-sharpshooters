@@ -20,7 +20,10 @@ ul {
     padding-left: 0;
     list-style: none;
 }
-
+.img-blouse{
+        max-width: 100%;
+        height: auto;
+    }
 .collection-section {
     background-image: url(../img/mob/collection/mob_collection_element.png);
     background-repeat: no-repeat;
