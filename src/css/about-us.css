@@ -7,7 +7,7 @@
     background-position: bottom 20px right 0;
     margin: 0 auto;
     max-width: 375px;
-    padding: 80px 20px;
+    padding: 0 20px 80px 20px;
 }
 
 
@@ -64,7 +64,7 @@
         background-image: url(../img/tab/about/tab_about_element.png);
         background-position: bottom 50px right 0;
         max-width: 768px;
-        padding: 100px 32px;
+        padding: 0 32px 100px 32px;
     }
 
     .container-about {
@@ -94,7 +94,7 @@
         background-image: url(../img/desk/about/desk_about_element.png);
         background-position: bottom 70px right 0;
         max-width: 1280px;
-        padding: 150px 100px;
+        padding: 0 100px 150px 100px;
     }
 
 
