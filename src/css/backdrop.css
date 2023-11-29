@@ -16,6 +16,13 @@
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.modal-button img {
+  background-image: url(../img/header/menu/close-button.svg);
+  background-size: cover; /* Растянуть изображение на всю область */
+  width: 44px; /* Ширина элемента */
+  height: 44px; /* Высота элемента */
+}
+
 .is-open {
   display: block;
 }
