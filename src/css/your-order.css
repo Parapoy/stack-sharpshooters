@@ -149,6 +149,7 @@
     (min-resolution: 2dppx) {
         .order-section {
             background-image: url(../img/tab/form/tab_form_element@2x.png);
+            background-size: 322px 484px;
         }
     }
 
@@ -217,6 +218,7 @@
     (min-resolution: 2dppx) {
         .order-section {
             background-image: url(../img/desk/form/desk_form_element@2x.png);
+            background-size: 325px 484px;
         }
     }
 
