@@ -1,6 +1,4 @@
-img {
-    max-width: none;
-}
+
 
 
 .about {
@@ -102,7 +100,7 @@ img {
         max-width: 1082px;
     }
 
-    .about-container {
+    .about-text {
         width: 436px;
         height: 454px;
     }
