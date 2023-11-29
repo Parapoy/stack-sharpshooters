@@ -80,7 +80,7 @@ body {
 
 .hero-sec {
   padding-top: 60px;
-  padding-bottom: 80px;
+  padding-bottom: 0px;
   padding-left: 20px;
   padding-right: 20px;
 
@@ -126,7 +126,7 @@ body {
 
   display: inline-flex;
   height: 49px;
-  padding: 14px 44px;
+  padding: 14px 36px;
   justify-content: center;
   align-items: center;
   gap: 10px;
@@ -183,7 +183,7 @@ body {
 
 @media screen and (min-width: 768px) {
   .hero-sec {
-    padding: 106px 32px 100px 32px;
+    padding: 106px 32px 0px 32px;
     position: relative;
   }
 
@@ -192,9 +192,11 @@ body {
   }
 
   .hero-text {
-    width: 549px;
+    width: 450px;
     font-size: 44px;
     flex-direction: row;
+    letter-spacing: -3%;
+    line-height: 64px;
   }
 
   .star-container {
@@ -226,7 +228,7 @@ body {
     /* right: 32px; */
     /*left: 600px;*/
     left: 597px;
-    bottom: 100px;
+    bottom: 0px;
   }
 }
 
@@ -245,7 +247,9 @@ body {
   }
 
   .hero-text {
-    width: 518px;
+    width: 420px;
+    letter-spacing: -3%;
+    line-height: 64px;
     /* margin-right: 15px; */
 
     position: absolute;
@@ -256,6 +260,8 @@ body {
 
   .first-pic {
     justify-content: flex-start;
+    width: 392px;
+    height: 545px;
   }
 
   .hero-img {
