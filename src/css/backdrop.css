@@ -1,0 +1,115 @@
+.menu-button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.backdrop {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ecd979;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.is-open {
+  display: block;
+}
+
+.menu-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 20px 0 20px;
+  gap: 40px;
+}
+
+.menu-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  gap: 20px;
+  padding-right: 20px;
+  padding-top: 185px;
+  padding-bottom: 185px;
+}
+
+.menu-item {
+  color: #1c2225;
+
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 128.571% */
+  text-transform: uppercase;
+}
+
+.menu-element {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center; /* Центрируем изображение */
+  max-width: none;
+}
+
+.menu-element-img {
+  height: auto;
+  max-width: none;
+  max-height: none;
+}
+
+.contacts-menu {
+  display: flex;
+  padding: 12px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  border-radius: 15px;
+  border: 1px solid rgba(28, 34, 37, 0.1);
+
+  color: #1c2225;
+
+  font-family: Manrope;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.16em; /* 116.667% */
+  text-transform: uppercase;
+}
+
+.modal-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+
+  width: 36px;
+  height: 36px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media screen and (min-width: 768px) {
+  .menu-list {
+    padding-right: 32px;
+    padding-top: 223px;
+    padding-bottom: 222px;
+  }
+
+  .menu-header {
+    gap: 79px;
+  }
+
+  .menu-button {
+    margin-left: 8px;
+  }
+}
